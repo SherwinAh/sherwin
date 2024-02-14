@@ -1,0 +1,49 @@
+body {
+  margin: 70px 10% 70px 10%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.webseite { /* Alles im Layout */
+  width: 500px;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+.lebenslauf { /* Der Titel */
+  text-align: center;
+  margin-left: -40px;
+}
+
+.daten { /* Die Informationen */
+  margin-bottom: 50px;
+}
+
+.info { /* Die Informationen im Layout */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.infolinks { /* Die Informationen im Layout (Links) + Die vertikale Linie mithilfe von Border-Right */
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+
+.inforechts { /* Die Informationen im Layout (Rechts) */
+  padding-left: 10px;
+}
+
+p { 
+  margin: 0;
+}
+
+.werdegang { /* Werdegang Stil */
+  font-family: 'Garamond', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.fehler { /* Fehler mit falschem Spacing behoben */
+  margin-top: -10px;
+}
