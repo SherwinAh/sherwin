@@ -10,28 +10,28 @@ body {
   vertical-align: top;
 }
 
-.lebenslauf { /* Der Titel */
+.lebenslauf { /* Lebenslauf Stil */
   text-align: center;
   margin-left: -40px;
 }
 
-.daten { /* Die Informationen */
+.daten { /* Daten mit Abstand */
   margin-bottom: 50px;
 }
 
-.info { /* Die Informationen im Layout */
+.info { /* Grid mit 2 Spalten 1/3 und 2/3 */
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
 }
 
-.infolinks { /* Die Informationen im Layout (Links) + Die vertikale Linie mithilfe von Border-Right */
+.infolinks { /* Vertikale Linie + Abstand (rechts)*/
   border-right: 1px solid #000;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
-.inforechts { /* Die Informationen im Layout (Rechts) */
-  padding-left: 10px;
+.inforechts { /* Abstand zur Linie (links) */
+  padding-left: 15px;
 }
 
 p { 
