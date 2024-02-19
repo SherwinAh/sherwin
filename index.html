@@ -86,13 +86,17 @@
             <br><br>
             Basketball spielen, Radfahren und 
             <br>Programmieren
+           </div>
           </div>
-          Esslingen, 19.02.2024
+          <div class="ende">
+          Esslingen, <span id="aktuellesDatum"></span>
           <br>Sherwin Ahmadi
         </div>
         <br><br>
         <a target="_blank" href="https://github.com/SherwinAh/sherwin">Hier noch der Code der Webseite.</a>
       </div>
+      <script>
+        document.getElementById("aktuellesDatum").innerHTML = new Date().toLocaleDateString('de-DE');
+      </script>
     </body>
   </html>
-
