@@ -47,3 +47,7 @@ p {
 .fehler { /* Fehler mit falschem Spacing behoben */
   margin-top: -10px;
 }
+
+.ende {
+  margin-top: 10px;
+}
