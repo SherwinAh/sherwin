@@ -1,50 +1,78 @@
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 10px;
+  }
+
+  .webseite {
+    width: 100%;
+  }
+
+  .infolinks {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .inforechts {
+    padding-left: 0;
+  }
+}
+
 body {
   margin: 70px 10% 70px 10%;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.webseite { /* Alles im Layout */
+.webseite {
+  /* Alles im Layout */
   width: 500px;
   margin: 0 auto;
   vertical-align: top;
 }
 
-.lebenslauf { /* Lebenslauf Stil */
+.lebenslauf {
+  /* Lebenslauf Stil */
   text-align: center;
   margin-left: -40px;
 }
 
-.daten { /* Daten mit Abstand */
+.daten {
+  /* Daten mit Abstand */
   margin-bottom: 50px;
 }
 
-.info { /* Grid mit 2 Spalten 1/3 und 2/3 */
+.info {
+  /* Grid mit 2 Spalten 1/3 und 2/3 */
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
 }
 
-.infolinks { /* Vertikale Linie + Abstand (rechts)*/
+.infolinks {
+  /* Vertikale Linie + Abstand (rechts)*/
   border-right: 1px solid #000;
   padding-right: 15px;
 }
 
-.inforechts { /* Abstand zur Linie (links) */
+.inforechts {
+  /* Abstand zur Linie (links) */
   padding-left: 15px;
 }
 
-p { 
+p {
   margin: 0;
 }
 
-.werdegang { /* Werdegang Stil */
-  font-family: 'Garamond', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.werdegang {
+  /* Werdegang Stil */
+  font-family: "Garamond", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   font-weight: bold;
   font-size: large;
 }
 
-.fehler { /* Fehler mit falschem Spacing behoben */
+.fehler {
+  /* Fehler mit falschem Spacing behoben */
   margin-top: -10px;
 }
 
